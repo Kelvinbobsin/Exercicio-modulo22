@@ -1,7 +1,8 @@
 /// <reference types="cypress" />
 
-const { email, senha } = require('../fixtures/data.json')
-const { profilePage } = require("../support/pages/profile.page")
+const { email, senha } = require('../../fixtures/data.json')
+const { profilePage } = require("../../support/pages/profile.page")
+
 
 context('Dado que estou na pagina inicial', ()=>{
   context('Quando eu faço login', ()=>{

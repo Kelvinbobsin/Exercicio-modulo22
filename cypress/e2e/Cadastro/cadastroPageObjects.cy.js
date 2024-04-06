@@ -3,7 +3,7 @@
 
 
 import { faker } from '@faker-js/faker';
-const CreateAccountPage = require('../support/pages/createAccount.page')
+const CreateAccountPage = require('../../support/pages/createAccount.page')
 
 
 

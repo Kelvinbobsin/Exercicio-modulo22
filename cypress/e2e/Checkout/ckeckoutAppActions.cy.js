@@ -1,7 +1,7 @@
 /// <reference types = "cypress" />
 
-const dadosprodutos = require('../fixtures/dados.json')
-const produtos = require('../support/pages/checkout.page')
+const dadosprodutos = require('../../fixtures/produtos.json')
+const produtos = require('../../support/pages/checkout.page')
 
 
 
@@ -34,6 +34,8 @@ context('Checkout', () => {
             dadosprodutos[0].email
 
         )
+        cy.get('.woocommerce-notice').should('contain' , 'Obrigado. Seu pedido foi recebido.')
+
     });
 
 
