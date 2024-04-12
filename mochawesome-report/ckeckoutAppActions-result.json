@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-04-12T23:01:43.730Z",
+    "end": "2024-04-12T23:02:02.041Z",
+    "duration": 18311,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b4564c7a-e6e5-4418-89e4-048be2b76644",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Checkout\\ckeckoutAppActions.cy.js",
+      "file": "cypress\\e2e\\Checkout\\ckeckoutAppActions.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ea229612-7402-4896-854d-5591951c28a0",
+          "title": "Checkout",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "adicionar um produto ao carrinho e finalizar a compra",
+              "fullTitle": "Checkout adicionar um produto ao carrinho e finalizar a compra",
+              "timedOut": null,
+              "duration": 18255,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addProducts('Ajax Full-Zip Sweatshirt', 'M', 'Blue', '2');\nprodutos.preencherCheckout(dadosprodutos[0].nome, dadosprodutos[0].sobrenome, dadosprodutos[0].empresa, dadosprodutos[0].pais, dadosprodutos[0].endereco, dadosprodutos[0].complemento, dadosprodutos[0].cidade, dadosprodutos[0].estado, dadosprodutos[0].cep, dadosprodutos[0].telefone, dadosprodutos[0].email);\ncy.get('.woocommerce-notice').should('contain', 'Obrigado. Seu pedido foi recebido.');",
+              "err": {},
+              "uuid": "5feca424-d9c3-4554-8f1f-0048a4606b18",
+              "parentUUID": "ea229612-7402-4896-854d-5591951c28a0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5feca424-d9c3-4554-8f1f-0048a4606b18"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18255,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-result",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-result",
+        "html": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -20,7 +20,7 @@ context('Given - Dado que visito a Loja EBAC na página minha-conta', () => {
        
     });
 
-    it('Then - Então deve aparecer cadastrado com sucesso', () => {
+    it.only('Then - Então deve aparecer cadastrado com sucesso', () => {
         
         cy.location('pathname').should('be.equal', '/minha-conta/')
         cy.contains('h1', 'Minha conta').should('be.visible')

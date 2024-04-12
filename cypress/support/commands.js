@@ -22,9 +22,11 @@ Cypress.Commands.add('addProducts', (produto, tamanho, cor, quantidade) => {
     cy.get('.single_add_to_cart_button').click()
     
     
-  
-    
 });
+
+
+
+
 
 
 

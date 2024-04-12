@@ -1,0 +1,323 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio",
+    "projectName": "exercicio",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio",
+    "fixturesFolder": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 54850,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "18.18.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\pc\\OneDrive\\Área de Trabalho\\Estudos\\Curso Engenheiro QA\\Módulo 22 - Automação de UI\\exercicio\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "123",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "123.0.6312.122"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "123",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "123.0.2420.81"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\pc\\AppData\\Local\\Cypress\\Cache\\13.6.5\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.6.5",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.6.5",
+  "endedTestsAt": "2024-04-12T23:16:14.528Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-04-12T23:15:43.238Z",
+        "end": "2024-04-12T23:15:45.764Z",
+        "duration": 2526
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/pc/OneDrive/Área de Trabalho/Estudos/Curso Engenheiro QA/Módulo 22 - Automação de UI/exercicio/cypress/e2e/Cadastro/cadastroPageObjects.cy.js",
+        "fileExtension": ".js",
+        "fileName": "cadastroPageObjects",
+        "name": "cadastroPageObjects.cy.js",
+        "relative": "cypress\\e2e\\Cadastro\\cadastroPageObjects.cy.js"
+      },
+      "stats": {
+        "duration": 2529,
+        "endedAt": "2024-04-12T23:15:45.762Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-04-12T23:15:43.233Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2519,
+          "state": "passed",
+          "title": [
+            "Given - Dado que visito a Loja EBAC na página minha-conta",
+            "Then - Então deve aparecer cadastrado com sucesso"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-04-12T23:15:47.130Z",
+        "end": "2024-04-12T23:16:02.521Z",
+        "duration": 15391
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/pc/OneDrive/Área de Trabalho/Estudos/Curso Engenheiro QA/Módulo 22 - Automação de UI/exercicio/cypress/e2e/Checkout/ckeckoutAppActions.cy.js",
+        "fileExtension": ".js",
+        "fileName": "ckeckoutAppActions",
+        "name": "ckeckoutAppActions.cy.js",
+        "relative": "cypress\\e2e\\Checkout\\ckeckoutAppActions.cy.js"
+      },
+      "stats": {
+        "duration": 15393,
+        "endedAt": "2024-04-12T23:16:02.519Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-04-12T23:15:47.126Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 15387,
+          "state": "passed",
+          "title": [
+            "Checkout",
+            "adicionar um produto ao carrinho e finalizar a compra"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-04-12T23:16:03.811Z",
+        "end": "2024-04-12T23:16:10.139Z",
+        "duration": 6328
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/pc/OneDrive/Área de Trabalho/Estudos/Curso Engenheiro QA/Módulo 22 - Automação de UI/exercicio/cypress/e2e/Intercept/carrinho.cy.js",
+        "fileExtension": ".js",
+        "fileName": "carrinho",
+        "name": "carrinho.cy.js",
+        "relative": "cypress\\e2e\\Intercept\\carrinho.cy.js"
+      },
+      "stats": {
+        "duration": 6329,
+        "endedAt": "2024-04-12T23:16:10.136Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-04-12T23:16:03.807Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 6322,
+          "state": "passed",
+          "title": [
+            "Utilize o intercept para simular e validar respostas dadas pela API",
+            "Verifique se o produto foi atualizado corretamente"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 2,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-04-12T23:16:11.392Z",
+        "end": "2024-04-12T23:16:14.531Z",
+        "duration": 3139
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/pc/OneDrive/Área de Trabalho/Estudos/Curso Engenheiro QA/Módulo 22 - Automação de UI/exercicio/cypress/e2e/Login/login.cy.js",
+        "fileExtension": ".js",
+        "fileName": "login",
+        "name": "login.cy.js",
+        "relative": "cypress\\e2e\\Login\\login.cy.js"
+      },
+      "stats": {
+        "duration": 3140,
+        "endedAt": "2024-04-12T23:16:14.528Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-04-12T23:16:11.388Z",
+        "suites": 2,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3134,
+          "state": "passed",
+          "title": [
+            "Dado que estou na pagina inicial",
+            "Quando eu faço login",
+            "Então o nome do usuário deve aparecer na página de perfil"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-04-12T23:15:43.233Z",
+  "totalDuration": 27391,
+  "totalFailed": 0,
+  "totalPassed": 4,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 5,
+  "totalTests": 4
+}
