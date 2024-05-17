@@ -21,6 +21,7 @@
     "@faker-js/faker": "^8.4.1",
     "cypress-html-reporter": "^11.0.0",
     "mochawesome": "^7.1.3",
-    "mochawesome-merge": "^4.3.0"
+    "mochawesome-merge": "^4.3.0",
+    "start-server-and-test": "^2.0.3"
   }
 }
