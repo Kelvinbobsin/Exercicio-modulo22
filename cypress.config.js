@@ -12,10 +12,3 @@ module.exports = defineConfig({
       html: true
     }
   },
-
-
-<<<<<<< HEAD
-});
-=======
-});
->>>>>>> ecbaec2ee353cec6585104055efef396d914c550
