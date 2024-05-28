@@ -10,7 +10,7 @@ context('Dado que estou na pagina inicial', ()=>{
     })
 
     it('Então o nome do usuário deve aparecer na página de perfil', () => {
-      profilePage.customerName().should('have.text', 'EBAC Cliente')
+      profilePage.customerName().should('have.text', 'EBAC JU')
     })
   
   })

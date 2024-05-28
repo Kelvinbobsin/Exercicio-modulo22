@@ -1,0 +1,122 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-28T23:03:07.434Z",
+    "end": "2024-05-28T23:03:15.948Z",
+    "duration": 8514,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0388008b-8486-4617-891c-2c4aac3ede53",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cadastroPageObjects.cy.js",
+      "file": "cypress\\e2e\\cadastroPageObjects.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "78b83651-f347-489b-a9a0-5476af953afb",
+          "title": "Given - Dado que visito a Loja EBAC na página minha-conta",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "When - Quando me cadastro com e-mail e senha ",
+              "fullTitle": "Given - Dado que visito a Loja EBAC na página minha-conta When - Quando me cadastro com e-mail e senha ",
+              "timedOut": null,
+              "duration": 7028,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let email = _faker.faker.internet.email();\nlet pass = _faker.faker.internet.password();\nCreateAccountPage.register(email, pass);",
+              "err": {},
+              "uuid": "93af0dbe-e961-42bf-9529-7075ce811100",
+              "parentUUID": "78b83651-f347-489b-a9a0-5476af953afb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Then - Então deve aparecer cadastrado com sucesso",
+              "fullTitle": "Given - Dado que visito a Loja EBAC na página minha-conta Then - Então deve aparecer cadastrado com sucesso",
+              "timedOut": null,
+              "duration": 1428,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.location('pathname').should('be.equal', '/minha-conta/');\ncy.contains('h1', 'Minha conta').should('be.visible');",
+              "err": {},
+              "uuid": "61ab2c7b-9c1c-419d-af1a-f4607e3f7536",
+              "parentUUID": "78b83651-f347-489b-a9a0-5476af953afb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "93af0dbe-e961-42bf-9529-7075ce811100",
+            "61ab2c7b-9c1c-419d-af1a-f4607e3f7536"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8456,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-result",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-result",
+        "html": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

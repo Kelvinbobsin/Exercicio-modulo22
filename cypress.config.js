@@ -12,3 +12,4 @@ module.exports = defineConfig({
       html: true
     }
   },
+})
