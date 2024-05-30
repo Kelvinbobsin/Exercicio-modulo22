@@ -8,4 +8,6 @@ COPY . /home/cypress/
 
 VOLUME [ "/home/cypress/report" ]
 
+RUN npm install
+
 CMD ["npm", "run", "test"]
